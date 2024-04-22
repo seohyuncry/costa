@@ -1,0 +1,1252 @@
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins';
+}
+[id$='Panel']{
+    display: none;
+}
+[id$='Panel'].active{
+    /* display: block; */
+}
+
+@media screen and (max-width: 767px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header > div:first-of-type,
+    header > div.gnbboxArea > div,
+    .mainContainer > div:not(:nth-child(1),:nth-child(3),:nth-child(6)),
+    .ourcoffeeContainer > div:nth-of-type(2) > ul,
+    .ourcoffeeContainer > div:nth-child(3),
+    .ourcoffeeContainer > div:nth-child(4) > div,
+    .ourcoffeeContainer > div:nth-child(5),
+    .expressContainer > div:not(:first-child),
+    .readydrinkContainer > div:not(:first-child),
+    .costaathomeContainer > div:not(:first-child,:nth-child(7)),
+    .drinkrecipesContainer > div:not(:first-child),
+    .gingerContainer > div:not(:first-child),
+    .blackforestContainer > div:not(:first-child),
+    .maplesyrupContainer > div:not(:first-child),
+    .mudslideContainer > div:not(:first-child),
+    .darkchocoContainer > div:not(:first-child),
+    .trufflesContainer > div:not(:first-child),
+    .mochaContainer > div:not(:first-child),
+    .flatwhiteContainer > div:not(:first-child),
+    .creamyContainer > div:not(:first-child),
+    .muffinsontainer > div:not(:first-child),
+    .frenchtoastcontainer > div:not(:first-child),
+    .drinksContainer,
+    .foodContainer,
+    .maplehazelrangeContainer,
+    .coffeemenuContainer,
+    .frappeContainer,
+    .overiceContainer,
+    .othericedContainer,
+    .coolersContainer,
+    .hotdrinksContainer,
+    .teaContainer,
+    .msfoodContainer,
+    .breakfastContainer,
+    .lunchContainer,
+    .sweetsContainer,
+    .snacksContainer,
+    .container.maplestyle > div:not(:first-child,:nth-child(3)),
+    .container.coffeestyle > div:not(:first-child,:nth-child(3)),
+    .container.coffeetwostyle > div:not(:first-child,:nth-child(3)),
+    .container.frappestyle > div:not(:first-child,:nth-child(3)),
+    .container.frappetwostyle > div:not(:first-child,:nth-child(3)),
+    .container.overicestyle > div > h2,
+    .container.overicestyle > div:not(:first-child,:nth-child(3)),
+    .container.overicetwostyle > div:not(:first-child,:nth-child(3)),
+    .container.othericestyle > div > h2,
+    .container.othericestyle > div:not(:first-child,:nth-child(3)),
+    .container.fruitstyle > div:not(:first-child,:nth-child(3)),
+    .container.otherhotstyle > div:not(:first-child,:nth-child(3)),
+    .container.otherhottwostyle > div:not(:first-child,:nth-child(3)),
+    .container.teastyle > div:not(:first-child,:nth-child(3)),
+    .container.msstyle > div:not(:first-child,:nth-child(3)),
+    .container.breakstyle > div:not(:first-child,:nth-child(3)),
+    .container.lunchstyle > div > h2,
+    .container.lunchstyle > div:not(:first-child,:nth-child(3)),
+    .container.sweetsstyle > div > h2,
+    .container.sweetsstyle > div:not(:first-child,:nth-child(3)),
+    .container.snacksstyle > div > h2,
+    .container.snacksstyle > div:not(:first-child,:nth-child(3)),
+    .container.snackstwostyle > div:not(:nth-child(1),:nth-child(3)),
+    .costaclubContainer > div:not(:nth-child(2),:nth-child(7),:nth-child(8),:nth-child(9)),
+    .costaclubContainer > div:nth-child(9) > div,
+    .howtoguideContainer > div:not(:first-child),
+    .costaclubjoinContainer,
+    .costacontinueontainer,
+    .deliveryContainer > div:not(:nth-child(1),:nth-child(3)),
+    .clickcollectContainer > div:not(:first-child),
+    /* .ourcoffeeContainer > div:nth-child(2n):nth-child(-n+7), */
+    .ourcorecoffeeContainer > div:not(:nth-child(1),:nth-child(8)),
+    .packagingContainer > div:not(:nth-child(1),:nth-child(4),:nth-child(11)),
+    .recycleContainer > div:not(:nth-child(1)),
+    .climateContainer > div:not(:nth-child(1),:nth-child(12)),
+    .communititesContainer > div:not(:first-child,:nth-child(6),:nth-child(14)),
+    .foundationContainer > div:not(:first-child,:nth-child(8)),
+    .workpeopleContainer > div:not(:first-child,:nth-child(9),:nth-child(12)),
+    .baristasContainer > div:not(:nth-child(1),:nth-child(7)),
+    .ingredientsContainer > div:not(:nth-child(1),:nth-child(9)),
+    .nutritionContainer > div:not(:nth-child(1),:nth-child(9)),
+    .resourcesContainer > div:not(:nth-child(1),:nth-child(6),:last-child),
+    .ourstoryContainer > div:not(:nth-child(1),:nth-child(4),:nth-child(6)),
+    .roasteryContainer > div:not(:nth-child(1),:nth-child(6),:nth-child(8),:nth-child(10)),
+    .policiesContainer,
+    .termsofuseContainer,
+    .whycoffeeContainer > div:not(:nth-child(1),:nth-child(6),:nth-child(8)),
+    .servedContainer > div:not(:nth-child(1),:nth-child(4)),
+    .costaexpressContainer > div:not(:nth-child(1),:nth-child(5),:nth-child(7)),
+    .coffeebarsContainer > div:not(:first-child,:last-child),
+    .getintouchContainer,
+    .touchapprovedContainer,
+    .statementContainer,
+    .costafaqsContainer,
+    .contactmainContainer,
+    .privacypolicyContainer,
+    .cookiepolicyContainer,
+    .condtitionsContainer,
+    .contactusgetContainer,
+    .contactapprovedContainer,
+    .costasigninContainer,
+    .findpasswordContainer,
+    .pwapprovedContainer,
+    .costasignupContainer,
+    .costamapContainer > div:not(:nth-child(1)),
+    footer > div{
+     max-width: 90%;
+     margin: 0 auto;
+    } 
+
+    header > div:first-of-type:after{
+     content: '';
+     display: block;
+     clear: both;
+    }
+    header > div:first-of-type{
+        border-bottom: 1px solid #f4f4f4;
+    }
+    header > div:first-of-type > h1{
+     max-width: 62px; 
+     padding: 25px 0;
+     width: 100%;
+     float: left;
+    }
+    header > div:first-of-type > h1 > a > img{
+     width: 100%;
+    }
+    header > div:first-of-type > nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+     }
+
+    header > div:first-of-type > nav > ul{
+        display: none;
+    }
+    header > div:first-of-type > nav > ul > li{
+     font-weight: 400;
+     font-size: 16px;
+     color: #231f20;
+     display: inline-block;
+     line-height: 61px;
+     overflow: hidden;
+    }
+
+ header > div:first-of-type > nav > ul > li:hover,
+ header > div:first-of-type > nav > ul > li.active{
+    color: #cdc8c9;
+ }
+    header > div:first-of-type > nav > ul > li:not(:first-child){
+     margin-left: 4.9%;
+    }
+    header > div:first-of-type:after{
+     content: '';
+     display: block;
+     clear: both;
+    }
+    header > div:first-of-type > ul{
+     padding: 25px 0;
+     box-sizing: border-box;
+     float: right;
+    }
+    header > div:first-of-type > ul > li{
+    }
+    header > div:first-of-type > ul > li > button{
+        background-color: transparent;
+        width: 26px; height: 35px;
+        border: none;
+        text-indent: -9999px;
+        background-image: url('../images/hamburger_03.png');
+        background-repeat: no-repeat;
+        background-position: center;
+     }
+
+     header > div:first-of-type ul li button.close{
+        /* display: block;
+        background-color: transparent; */
+        /* position: absolute; */
+        /* height: 53px;
+        width: 7%;
+        text-indent: -9999px;
+        border: transparent;
+        z-index: 2; */
+        /* top: 34px;
+        right: 13px; */
+        margin-top: 5px;
+        background-image: url('../images/close_03.png');
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+        cursor: pointer;
+    }
+    header > div:first-of-type ul li.active button.close{
+        padding: 0 30px;
+    }
+    header > div:first-of-type ul li.active{
+        display: inline;
+        background-image: none;
+        left: 0;
+        top: 200px;
+        width: 100%;
+        padding-top: 53px;
+        height: 100%;
+        z-index: 1;
+    }
+    header > div:first-of-type > ul > li{
+        float: left;
+    }
+    header > div:first-of-type > ul > li > a{
+     background-repeat: no-repeat;
+     background-position: center center;
+     text-indent: -9999px;
+     width: 26px;
+     display: block;
+     height: 32px;
+    }
+    header > div:first-of-type > ul > li:nth-child(1) > a{
+     background-image: url('../images/sns_01.png');
+    }
+    header > div:first-of-type > ul > li:nth-child(2) > a{
+     background-image: url('../images/sns_02.png');
+    }
+    header > div:first-of-type > ul > li:nth-child(3) > a{
+     background-image: url('../images/sns_03.png');
+    }
+    header > div:first-of-type > ul > li:nth-child(4) > a{
+     background-image: url('../images/sns_04.png');
+    }
+    header > .gnbboxArea{
+     display: none;
+     background-color: black;
+    }
+    header > .gnbboxArea.active{
+        display: block;
+    }
+    header > .gnbboxArea > div{
+     max-width: 1140px;
+    }
+    .headerlist{
+        margin: 0; 
+        padding-bottom: 10px; 
+        list-style: none;
+    }
+    .headerlist li{}
+    .headerlist li h2{
+        font-size: 11px;
+        color: #cdc8c9;
+        font-weight: 400;
+        line-height: 30px;
+        border-bottom: 1px solid #d6d6d6;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .headerlist li h2:after{
+        content: url('../images/white_mobile_bottom.png');
+        display: block;
+        float: right;
+        margin-right: 3.84%;
+    }
+    .headerlist li h2~*{
+        background-color: #8f8f8f;
+        display: none;
+    }
+    .headerlist li.active h2:after{
+        content: url('../images/white_mobile_top.png');
+    }
+    .headerlist li.active h2~*{
+        display: block;
+    }
+
+    .headerlist li ol{
+        padding: 10px 0;
+    }
+    .headerlist li ol li{
+    }
+    .headerlist li ol li a{
+        font-size: 8px;
+        font-weight: 400;
+        color: #fff;
+        padding: 5px 1.92%;
+    }
+    .headerlist li div h3{
+        font-size: 8px;
+        color: #c9c7c7;
+        font-weight: 400;
+        background-color: #8f8f8f;
+        padding: 5px 1.92%;
+    }
+    .headerlist li div ul{
+        background-color: #8f8f8f;
+    }
+    .headerlist li div ul li{
+    }
+    .headerlist li div ul li a{
+        font-size: 8px;
+        font-weight: 400;
+        color: #fff;
+        padding: 5px 1.92%;
+    }
+    /* header > .gnbboxArea > div > ul{
+     padding: 35px 0;
+    }
+    header > .gnbboxArea > div > ul > li > h2{
+     font-weight: 400;
+     font-size: 14px; 
+     color: #d3f3e5;
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li:nth-child(4) > h2{
+     margin: 25px 0;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li{
+     display: inline-block
+    }
+    header > .gnbboxArea > div > ul > li > ol > li:not(:last-child){
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li:nth-child(1),:nth-child(6){
+     font-weight: 400;
+     font-size: 12px;
+     color: #c9c7c7;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li:not(:first-child){
+     margin-left: 9.69%;
+ }
+    header > .gnbboxArea > div > ul > li > ol > li > a{
+     font-weight: 400;
+     font-size: 12px;
+     color: #ffffff;
+     text-transform: uppercase;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li > a:hover{
+        color: #797475;
+    }
+    header > .gnbboxArea > div > ul > li > h2{
+     font-weight: 400;
+     font-size: 14px; 
+     color: #d3f3e5;
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div:last-child{
+     margin: 25px 0 0;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > h3{
+     font-weight: 400;
+     font-size: 12px;
+     color: #c9c7c7;
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li{
+     display: inline-block;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li:not(:first-child){
+     margin-left: 9.69%;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li > a{
+     font-weight: 400;
+     font-size: 12px;
+     color: #ffffff;
+     text-transform: uppercase;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li > a:hover{
+        color: #797475;
+    } */
+
+  
+
+    footer{
+        margin: 60px 0;
+    }
+    footer > div > div:nth-child(1){
+        text-align: center;
+    }
+    footer > div > div:nth-child(1) > h2{
+        width: 23.07%;
+        margin: 0 auto 20px;
+    }
+    footer > div > div:nth-child(1) > h2 > img{
+        width: 100%;
+    }
+    footer > div > div:nth-child(2){
+        padding-bottom: 20px;
+    }
+    footer > div > div:nth-child(2) > ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer > div > div:nth-child(2) > ul > li{
+        display: inline-block;
+    }
+    footer > div > div:nth-child(2) > ul > li:nth-child(2) > a{
+        margin-left: 15px;
+    }
+    footer > div > div:nth-child(2) > ul > li > a > img{
+        width: 20px;
+    }
+
+    .accComponent{
+        margin: 0; padding: 0; list-style: none;
+    }
+    .accComponent div h3{
+        background-color: #fff; 
+        line-height: 30px;
+        padding: 0 2%; 
+        box-sizing: border-box; 
+        margin: 0;
+        border-bottom: 1px solid #f3f3f3;
+        font-size: 12px;
+        font-weight: 600;
+        color: #231f20;
+        text-transform: uppercase;
+    }
+    .accComponent div h3:after{
+        content: url('../images/footer_bottom.png'); 
+        display: block;
+        float: right; 
+        width: 16px;
+    }
+    .accComponent div h3+ul{
+        font-size: 8px; 
+        font-weight: 400; 
+        line-height: 15px; 
+        margin: 0; 
+        padding: 15px 2%;
+        background-color: #ebebeb; 
+        display: none;
+    }
+    .accComponent div h3+ul > li{
+        padding: 5px 0;
+    }
+    .accComponent div h3+ul > li > a{
+        color: #a4a0a1;
+    }
+    .accComponent div h3.active{
+        background-color: #fff; 
+        color: #231f20;
+    }
+    .accComponent div h3.active:after{
+        content: url('../images/footer_top.png'); 
+    }
+    .accComponent div h3.active+ul{
+        display: block;
+    }
+    .accComponent div h3:after, .accComponent div h3.active:after {
+        content: ""; 
+        display: block;
+        float: right;
+        width: 9px;
+        height: 9px;
+        background-image: url('../images/footer_bottom.png'); 
+        background-size: contain; 
+        background-repeat: no-repeat; 
+        margin-top: 15px;
+    }
+    
+    .accComponent div h3.active:after {
+        background-image: url('../images/footer_top.png'); 
+    }
+
+    footer > div > div:nth-child(4){
+        margin: 15px auto 0;
+    }
+    footer > div > div:nth-child(4) > hr{
+       display: none;
+    }
+    footer > div > div:nth-child(4) > ul > li > a{
+        font-weight: 600;
+        font-size: 10px;
+        color: #231f20;
+        padding: 0 2%;
+    }
+    footer > div > div:nth-child(4) > p{
+        margin: 15px 0 0;
+        font-weight: 400;
+        font-size: 10px;
+        color: #a4a0a1;
+        text-align: center;
+    }
+}
+/* mobile */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    header > div:first-of-type,
+    header > div.gnbboxArea > div,
+    .mainContainer > div:not(:nth-child(1),:nth-child(3),:nth-child(6)),
+    .ourcoffeeContainer > div:nth-of-type(2) > ul,
+    .ourcoffeeContainer > div:nth-child(3),
+    .ourcoffeeContainer > div:nth-child(4) > div,
+    .ourcoffeeContainer > div:nth-child(5),
+    .expressContainer > div:not(:first-child),
+    .readydrinkContainer > div:not(:first-child),
+    .costaathomeContainer > div:not(:first-child,:nth-child(7)),
+    .drinkrecipesContainer > div:not(:first-child),
+    .gingerContainer > div:not(:first-child),
+    .blackforestContainer > div:not(:first-child),
+    .maplesyrupContainer > div:not(:first-child),
+    .mudslideContainer > div:not(:first-child),
+    .darkchocoContainer > div:not(:first-child),
+    .trufflesContainer > div:not(:first-child),
+    .mochaContainer > div:not(:first-child),
+    .flatwhiteContainer > div:not(:first-child),
+    .creamyContainer > div:not(:first-child),
+    .muffinsontainer > div:not(:first-child),
+    .frenchtoastcontainer > div:not(:first-child),
+    .drinksContainer,
+    .foodContainer,
+    .maplehazelrangeContainer,
+    .coffeemenuContainer,
+    .frappeContainer,
+    .overiceContainer,
+    .othericedContainer,
+    .coolersContainer,
+    .hotdrinksContainer,
+    .teaContainer,
+    .msfoodContainer,
+    .breakfastContainer,
+    .lunchContainer,
+    .sweetsContainer,
+    .snacksContainer,
+    .container.maplestyle > div:not(:first-child,:nth-child(3)),
+    .container.coffeestyle > div:not(:first-child,:nth-child(3)),
+    .container.coffeetwostyle > div:not(:first-child,:nth-child(3)),
+    .container.frappestyle > div:not(:first-child,:nth-child(3)),
+    .container.frappetwostyle > div:not(:first-child,:nth-child(3)),
+    .container.overicestyle > div > h2,
+    .container.overicestyle > div:not(:first-child,:nth-child(3)),
+    .container.overicetwostyle > div:not(:first-child,:nth-child(3)),
+    .container.othericestyle > div > h2,
+    .container.othericestyle > div:not(:first-child,:nth-child(3)),
+    .container.fruitstyle > div:not(:first-child,:nth-child(3)),
+    .container.otherhotstyle > div:not(:first-child,:nth-child(3)),
+    .container.otherhottwostyle > div:not(:first-child,:nth-child(3)),
+    .container.teastyle > div:not(:first-child,:nth-child(3)),
+    .container.msstyle > div:not(:first-child,:nth-child(3)),
+    .container.breakstyle > div:not(:first-child,:nth-child(3)),
+    .container.lunchstyle > div > h2,
+    .container.lunchstyle > div:not(:first-child,:nth-child(3)),
+    .container.sweetsstyle > div > h2,
+    .container.sweetsstyle > div:not(:first-child,:nth-child(3)),
+    .container.snacksstyle > div > h2,
+    .container.snacksstyle > div:not(:first-child,:nth-child(3)),
+    .container.snackstwostyle > div:not(:nth-child(1),:nth-child(3)),
+    .costaclubContainer > div:not(:nth-child(2),:nth-child(7),:nth-child(8),:nth-child(9)),
+    .costaclubContainer > div:nth-child(9) > div,
+    .howtoguideContainer > div:not(:first-child),
+    .costaclubjoinContainer,
+    .costacontinueontainer,
+    .deliveryContainer > div:not(:nth-child(1),:nth-child(3)),
+    .clickcollectContainer > div:not(:first-child),
+    /* .ourcoffeeContainer > div:nth-child(2n):nth-child(-n+7), */
+    .ourcorecoffeeContainer > div:not(:nth-child(1),:nth-child(8)),
+    .packagingContainer > div:not(:nth-child(1),:nth-child(4),:nth-child(11)),
+    .recycleContainer > div:not(:nth-child(1)),
+    .climateContainer > div:not(:nth-child(1),:nth-child(12)),
+    .communititesContainer > div:not(:first-child,:nth-child(6),:nth-child(14)),
+    .foundationContainer > div:not(:first-child,:nth-child(8)),
+    .workpeopleContainer > div:not(:first-child,:nth-child(9),:nth-child(12)),
+    .baristasContainer > div:not(:nth-child(1),:nth-child(7)),
+    .ingredientsContainer > div:not(:nth-child(1),:nth-child(9)),
+    .nutritionContainer > div:not(:nth-child(1),:nth-child(9)),
+    .resourcesContainer > div:not(:nth-child(1),:nth-child(6),:last-child),
+    .ourstoryContainer > div:not(:nth-child(1),:nth-child(4),:nth-child(6)),
+    .roasteryContainer > div:not(:nth-child(1),:nth-child(6),:nth-child(8),:nth-child(10)),
+    .policiesContainer,
+    .termsofuseContainer,
+    .whycoffeeContainer > div:not(:nth-child(1),:nth-child(6),:nth-child(8)),
+    .servedContainer > div:not(:nth-child(1),:nth-child(4)),
+    .costaexpressContainer > div:not(:nth-child(1),:nth-child(5),:nth-child(7)),
+    .coffeebarsContainer > div:not(:first-child,:last-child),
+    .getintouchContainer,
+    .touchapprovedContainer,
+    .statementContainer,
+    .costafaqsContainer,
+    .contactmainContainer,
+    .privacypolicyContainer,
+    .cookiepolicyContainer,
+    .condtitionsContainer,
+    .contactusgetContainer,
+    .contactapprovedContainer,
+    .costasigninContainer,
+    .findpasswordContainer,
+    .pwapprovedContainer,
+    .costasignupContainer,
+    .costamapContainer > div:not(:nth-child(1)),
+    footer > div{
+     max-width: 720px;
+     margin: 0 auto;
+    } 
+
+    header > div:first-of-type:after{
+     content: '';
+     display: block;
+     clear: both;
+    }
+    header > div:first-of-type{
+        border-bottom: 1px solid #f4f4f4;
+    }
+    header > div:first-of-type > h1{
+     max-width: 159px; 
+     padding: 60px 0;
+     width: 100%;
+     float: left;
+    }
+    header > div:first-of-type > h1 > a > img{
+     width: 100%;
+    }
+    header > div:first-of-type > nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+     }
+
+    header > div:first-of-type > nav > ul{
+        display: none;
+    }
+    header > div:first-of-type > nav > ul > li{
+     font-weight: 400;
+     font-size: 16px;
+     color: #231f20;
+     display: inline-block;
+     line-height: 61px;
+     overflow: hidden;
+    }
+
+ header > div:first-of-type > nav > ul > li:hover,
+ header > div:first-of-type > nav > ul > li.active{
+    color: #cdc8c9;
+ }
+    header > div:first-of-type > nav > ul > li:not(:first-child){
+     margin-left: 4.9%;
+    }
+    header > div:first-of-type:after{
+     content: '';
+     display: block;
+     clear: both;
+    }
+    header > div:first-of-type > ul{
+     padding: 60px 2.75%; 
+     box-sizing: border-box;
+     float: right;
+    }
+
+    header > div:first-of-type > ul > li > button{
+        background-color: transparent;
+        width: 50px; height: 50px;
+        border: none;
+        text-indent: -9999px;
+        background-image: url('../images/hamburger_03.png');
+        background-repeat: no-repeat;
+        background-position: center;
+     }
+
+     header > div:first-of-type ul li button.close{
+        margin-top: 5px;
+        background-image: url('../images/close_03.png');
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+        cursor: pointer;
+    }
+    header > div:first-of-type ul li.active{
+        display: inline;
+        background-image: none;
+        left: 0;
+        top: 200px;
+        width: 100%;
+        padding-top: 53px;
+        height: 100%;
+        z-index: 1;
+    }
+    header > div:first-of-type > ul > li{
+        float: left;
+    }
+    header > div:first-of-type > ul > li > a{
+     background-repeat: no-repeat;
+     background-position: center center;
+     text-indent: -9999px;
+     width: 50px;
+     display: block;
+     height: 50px;
+    }
+    header > div:first-of-type > ul > li:nth-child(1) > a{
+     background-image: url('../images/sns_01.png');
+    }
+    header > div:first-of-type > ul > li:nth-child(2) > a{
+     background-image: url('../images/sns_02.png');
+    }
+    header > div:first-of-type > ul > li:nth-child(3) > a{
+     background-image: url('../images/sns_03.png');
+    }
+    header > div:first-of-type > ul > li:nth-child(4) > a{
+     background-image: url('../images/sns_04.png');
+    }
+    header > .gnbboxArea{
+     display: none;
+     background-color: black;
+    }
+    header > .gnbboxArea.active{
+        display: block;
+    }
+    header > .gnbboxArea > div{
+     max-width: 1140px;
+    }
+    header > .gnbboxArea > div > ul{
+     padding: 35px 0;
+    }
+    header > .gnbboxArea > div > ul > li > h2{
+     font-weight: 400;
+     font-size: 14px; 
+     color: #d3f3e5;
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li:nth-child(4) > h2{
+     margin: 25px 0;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li{
+     display: inline-block
+    }
+    header > .gnbboxArea > div > ul > li > ol > li:not(:last-child){
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li:nth-child(1),:nth-child(6){
+     font-weight: 400;
+     font-size: 12px;
+     color: #c9c7c7;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li:not(:first-child){
+     margin-left: 9.69%;
+ }
+    header > .gnbboxArea > div > ul > li > ol > li > a{
+     font-weight: 400;
+     font-size: 12px;
+     color: #ffffff;
+     text-transform: uppercase;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li > a:hover{
+        color: #797475;
+    }
+    header > .gnbboxArea > div > ul > li > h2{
+     font-weight: 400;
+     font-size: 14px; 
+     color: #d3f3e5;
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div:last-child{
+     margin: 25px 0 0;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > h3{
+     font-weight: 400;
+     font-size: 12px;
+     color: #c9c7c7;
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li{
+     display: inline-block;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li:not(:first-child){
+     margin-left: 9.69%;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li > a{
+     font-weight: 400;
+     font-size: 12px;
+     color: #ffffff;
+     text-transform: uppercase;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li > a:hover{
+        color: #797475;
+    }
+
+  
+
+    footer{
+        margin: 90px 0;
+    }
+    footer > div > div:nth-child(1){
+        text-align: center;
+    }
+    footer > div > div:nth-child(1) > h2{
+        width: 20.13%;
+        margin: 0 auto 45px;
+    }
+    footer > div > div:nth-child(1) > h2 > img{
+        width: 100%;
+    }
+    footer > div > div:nth-child(2){
+        padding-bottom: 80px;
+    }
+    footer > div > div:nth-child(2) > ul{
+        text-align: center;
+    }
+    footer > div > div:nth-child(2) > ul > li{
+        display: inline-block;
+    }
+    footer > div > div:nth-child(2) > ul > li:nth-child(1){
+        margin-right: 4.86%;
+    }
+    footer > div > div:nth-child(2) > ul > li > img{
+        width: 100%;
+    }
+
+    .accComponent{
+        margin: 0; padding: 0; list-style: none;
+    }
+    .accComponent div h3{
+        background-color: #fff; 
+        line-height: 75px;
+        padding: 0 2%; 
+        box-sizing: border-box; 
+        margin: 0;
+        border-bottom: 2px solid #f3f3f3;
+        font-size: 20px;
+        font-weight: 600;
+        color: #231f20;
+        text-transform: uppercase;
+    }
+    .accComponent div h3:after{
+        content: url('../images/footer_bottom.png'); 
+        display: block; float: right; font-size: 14px;
+    }
+    .accComponent div h3+ul{
+        font-size: 12px; 
+        font-weight: 400; 
+        line-height: 40px; 
+        margin: 0; 
+        padding: 25px 2%;
+        background-color: #ebebeb; 
+        display: none;
+    }
+    .accComponent div h3+ul > li > a{
+        color: #a4a0a1;
+    }
+    .accComponent div h3.active{
+        background-color: #fff; 
+        color: #231f20;
+    }
+    .accComponent div h3.active:after{
+        content: url('../images/footer_top.png'); 
+    }
+    .accComponent div h3.active+ul{
+        display: block;
+    }
+
+    footer > div > div:nth-child(4){
+        margin: 45px auto 0;
+        text-align: center;
+        width: 77.3%;
+    }
+    footer > div > div:nth-child(4) > hr{
+       display: none;
+    }
+    footer > div > div:nth-child(4) > ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer > div > div:nth-child(4) > ul > li > a{
+        font-weight: 600;
+        font-size: 16px;
+        color: #231f20;
+    }
+    footer > div > div:nth-child(4) > p{
+        margin: 70px 0 0;
+        font-weight: 400;
+        font-size: 20px;
+        color: #a4a0a1;
+    }
+}
+/* tablet */
+
+@media screen and (min-width: 1280px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    .mui{
+        display: none;
+    }
+
+    header > div:first-of-type,
+    header > div.gnbboxArea > div,
+    .mainContainer > div:not(:nth-child(1),:nth-child(3),:nth-child(6)),
+    .ourcoffeeContainer > div:nth-of-type(2) > ul,
+    .ourcoffeeContainer > div:nth-child(3),
+    .ourcoffeeContainer > div:nth-child(4) > div,
+    .ourcoffeeContainer > div:nth-child(5),
+    .expressContainer > div:not(:first-child),
+    .readydrinkContainer > div:not(:first-child),
+    .costaathomeContainer > div:not(:first-child,:nth-child(7)),
+    .drinkrecipesContainer > div:not(:first-child),
+    .gingerContainer > div:not(:first-child),
+    .blackforestContainer > div:not(:first-child),
+    .maplesyrupContainer > div:not(:first-child),
+    .mudslideContainer > div:not(:first-child),
+    .darkchocoContainer > div:not(:first-child),
+    .trufflesContainer > div:not(:first-child),
+    .mochaContainer > div:not(:first-child),
+    .flatwhiteContainer > div:not(:first-child),
+    .creamyContainer > div:not(:first-child),
+    .muffinsontainer > div:not(:first-child),
+    .frenchtoastcontainer > div:not(:first-child),
+    .drinksContainer,
+    .foodContainer,
+    .maplehazelrangeContainer,
+    .coffeemenuContainer,
+    .frappeContainer,
+    .overiceContainer,
+    .othericedContainer,
+    .coolersContainer,
+    .hotdrinksContainer,
+    .teaContainer,
+    .msfoodContainer,
+    .breakfastContainer,
+    .lunchContainer,
+    .sweetsContainer,
+    .snacksContainer,
+    .container.maplestyle > div:not(:first-child,:nth-child(3)),
+    .container.coffeestyle > div:not(:first-child,:nth-child(3)),
+    .container.coffeetwostyle > div:not(:first-child,:nth-child(3)),
+    .container.frappestyle > div:not(:first-child,:nth-child(3)),
+    .container.frappetwostyle > div:not(:first-child,:nth-child(3)),
+    .container.overicestyle > div > h2,
+    .container.overicestyle > div:not(:first-child,:nth-child(3)),
+    .container.overicetwostyle > div:not(:first-child,:nth-child(3)),
+    .container.othericestyle > div > h2,
+    .container.othericestyle > div:not(:first-child,:nth-child(3)),
+    .container.fruitstyle > div:not(:first-child,:nth-child(3)),
+    .container.otherhotstyle > div:not(:first-child,:nth-child(3)),
+    .container.otherhottwostyle > div:not(:first-child,:nth-child(3)),
+    .container.teastyle > div:not(:first-child,:nth-child(3)),
+    .container.msstyle > div:not(:first-child,:nth-child(3)),
+    .container.breakstyle > div:not(:first-child,:nth-child(3)),
+    .container.lunchstyle > div > h2,
+    .container.lunchstyle > div:not(:first-child,:nth-child(3)),
+    .container.sweetsstyle > div > h2,
+    .container.sweetsstyle > div:not(:first-child,:nth-child(3)),
+    .container.snacksstyle > div > h2,
+    .container.snacksstyle > div:not(:first-child,:nth-child(3)),
+    .container.snackstwostyle > div:not(:nth-child(1),:nth-child(3)),
+    .costaclubContainer > div:not(:nth-child(2),:nth-child(7),:nth-child(8),:nth-child(9)),
+    .costaclubContainer > div:nth-child(9) > div,
+    .howtoguideContainer > div:not(:first-child),
+    .costaclubjoinContainer,
+    .costacontinueontainer,
+    .deliveryContainer > div:not(:nth-child(1),:nth-child(3)),
+    .clickcollectContainer > div:not(:first-child),
+    /* .ourcoffeeContainer > div:nth-child(2n):nth-child(-n+7), */
+    .ourcorecoffeeContainer > div:not(:nth-child(1),:nth-child(8)),
+    .packagingContainer > div:not(:nth-child(1),:nth-child(4),:nth-child(11)),
+    .recycleContainer > div:not(:nth-child(1)),
+    .climateContainer > div:not(:nth-child(1),:nth-child(12)),
+    .communititesContainer > div:not(:first-child,:nth-child(6),:nth-child(14)),
+    .foundationContainer > div:not(:first-child,:nth-child(8)),
+    .workpeopleContainer > div:not(:first-child,:nth-child(9),:nth-child(12)),
+    .baristasContainer > div:not(:nth-child(1),:nth-child(7)),
+    .ingredientsContainer > div:not(:nth-child(1),:nth-child(9)),
+    .nutritionContainer > div:not(:nth-child(1),:nth-child(9)),
+    .resourcesContainer > div:not(:nth-child(1),:nth-child(6),:last-child),
+    .ourstoryContainer > div:not(:nth-child(1),:nth-child(4),:nth-child(6)),
+    .roasteryContainer > div:not(:nth-child(1),:nth-child(6),:nth-child(8),:nth-child(10)),
+    .policiesContainer,
+    .termsofuseContainer,
+    .whycoffeeContainer > div:not(:nth-child(1),:nth-child(6),:nth-child(8)),
+    .servedContainer > div:not(:nth-child(1),:nth-child(4)),
+    .costaexpressContainer > div:not(:nth-child(1),:nth-child(5),:nth-child(7)),
+    .coffeebarsContainer > div:not(:first-child,:last-child),
+    .getintouchContainer,
+    .touchapprovedContainer,
+    .statementContainer,
+    .costafaqsContainer,
+    .contactmainContainer,
+    .privacypolicyContainer,
+    .cookiepolicyContainer,
+    .condtitionsContainer,
+    .contactusgetContainer,
+    .contactapprovedContainer,
+    .costasigninContainer,
+    .findpasswordContainer,
+    .pwapprovedContainer,
+    .costasignupContainer,
+    .costamapContainer > div:not(:nth-child(1)),
+    footer > div{
+     max-width: 1630px;
+     margin: 0 auto;
+    } 
+
+    header > div:first-of-type:after{
+     content: '';
+     display: block;
+     clear: both;
+    }
+    header > div:first-of-type{
+        border-bottom: 1px solid #f4f4f4;
+    }
+    header > div:first-of-type > h1{
+     max-width: 159px; 
+     padding-top: 60px;
+     width: 10%;
+     float: left;
+    }
+    header > div:first-of-type > h1 > a > img{
+     width: 100%;
+    }
+    header > div:first-of-type > nav{
+        padding: 60px 11% 0; float: left;
+        width: 75%; 
+        box-sizing: border-box;
+     }
+     header > div:first-of-type > nav > ul{
+     /* padding-left: 15.03%; */
+     text-align: center;
+    }
+    header > div:first-of-type > nav > ul > li{
+     font-weight: 400;
+     font-size: 16px;
+     color: #231f20;
+     display: inline-block;
+     /* vertical-align: middle; */
+     line-height: 61px;
+ }
+ header > div:first-of-type > nav > ul > li:hover,
+ header > div:first-of-type > nav > ul > li.active{
+    color: #cdc8c9;
+ }
+    header > div:first-of-type > nav > ul > li:not(:first-child){
+     margin-left: 4.9%;
+    }
+    header > div:first-of-type:after{
+     content: '';
+     display: block;
+     clear: both;
+    }
+    header > div:first-of-type > ul{
+     float: left; height: 180px; display: flex;
+     align-content: center; flex-wrap: wrap;
+     padding: 0 2.45%; 
+     box-sizing: border-box;
+     width: calc(15% - 1px);
+     border-left: 1px solid #f4f4f4;
+    }
+    header > div:first-of-type > ul > li:not(:first-child){
+     margin-left: 8%;
+    }
+    header > div:first-of-type > ul > li > a{
+     background-repeat: no-repeat;
+     background-position: center center;
+     display: inline-block;
+     text-indent: -9999px;
+     width: 23px;
+      display: block;
+     height: 20px;
+    }
+    header > div:first-of-type > ul > li:nth-child(1) > a{
+     background-image: url('../images/sns_01.png');
+    }
+    header > div:first-of-type > ul > li:nth-child(2) > a{
+     background-image: url('../images/sns_02.png');
+    }
+    header > div:first-of-type > ul > li:nth-child(3) > a{
+     background-image: url('../images/sns_03.png');
+    }
+    header > div:first-of-type > ul > li:nth-child(4) > a{
+     background-image: url('../images/sns_04.png');
+    }
+    header > .gnbboxArea{
+     display: none;
+     background-color: black;
+    }
+    header > .gnbboxArea.active{
+        display: block;
+    }
+    header > .gnbboxArea > div{
+     padding-left: 30.3%;
+     max-width: 1140px;
+    }
+    header > .gnbboxArea > div > ul{
+     padding: 35px 0;
+    }
+    header > .gnbboxArea > div > ul > li > h2{
+     font-weight: 400;
+     font-size: 14px; 
+     color: #d3f3e5;
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li:nth-child(4) > h2{
+     margin: 25px 0;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li{
+     display: inline-block
+    }
+    header > .gnbboxArea > div > ul > li > ol > li:not(:last-child){
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li:nth-child(1),:nth-child(6){
+     font-weight: 400;
+     font-size: 12px;
+     color: #c9c7c7;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li:not(:first-child){
+     margin-left: 9.69%;
+ }
+    header > .gnbboxArea > div > ul > li > ol > li > a{
+     font-weight: 400;
+     font-size: 12px;
+     color: #ffffff;
+     text-transform: uppercase;
+    }
+    header > .gnbboxArea > div > ul > li > ol > li > a:hover{
+        color: #797475;
+    }
+    header > .gnbboxArea > div > ul > li > h2{
+     font-weight: 400;
+     font-size: 14px; 
+     color: #d3f3e5;
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div:last-child{
+     margin: 25px 0 0;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > h3{
+     font-weight: 400;
+     font-size: 12px;
+     color: #c9c7c7;
+     margin-bottom: 25px;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li{
+     display: inline-block;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li:not(:first-child){
+     margin-left: 9.69%;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li > a{
+     font-weight: 400;
+     font-size: 12px;
+     color: #ffffff;
+     text-transform: uppercase;
+    }
+    header > .gnbboxArea > div > ul > li:last-child > div > ul > li > a:hover{
+        color: #797475;
+    }
+
+  
+
+    footer{
+        margin: 190px 0 270px;
+    }
+    footer > div > div:nth-child(1){
+        text-align: center;
+    }
+    footer > div > div:nth-child(1) > h2{
+        width: 18.52%;
+        margin: 0 auto 85px;
+    }
+    footer > div > div:nth-child(1) > h2 > img{
+        width: 100%;
+    }
+    footer > div > div:nth-child(2){
+        padding-bottom: 80px;
+    }
+    footer > div > div:nth-child(2) > ul{
+        text-align: center;
+    }
+    footer > div > div:nth-child(2) > ul > li{
+        display: inline-block;
+    }
+    footer > div > div:nth-child(2) > ul > li:nth-child(1){
+        margin-right: 4.6%;
+    }
+    footer > div > div:nth-child(3){
+        padding: 0 11.65%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    footer > div > div:nth-child(3) > div{
+        text-align: left;
+    }
+    footer > div > div:nth-child(3) > div:not(:first-child){
+        margin-left: 5.82%;
+    }
+    footer > div > div:nth-child(3) > div > h3{
+        font-weight: 600;
+        font-size: 25px;
+        color: #231f20;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+    }
+    footer > div > div:nth-child(3) > div > ul > li{
+        max-width: 265px;
+    }
+    footer > div > div:nth-child(3) > div > ul > li:not(:last-child){
+        margin-bottom: 40px;
+    }
+    footer > div > div:nth-child(3) > div > ul > li > a{
+        font-weight: 400;
+        font-size: 20px;
+        color: #a4a0a1;
+    }
+    footer > div > div:nth-child(4){
+        margin: 165px auto 0;
+        text-align: center;
+        width: 77.3%;
+    }
+    footer > div > div:nth-child(4) > hr{
+        border-color: #f5f5f5;
+        width: 76.68%;
+        margin: 0 auto;
+        padding-bottom: 45px;
+    }
+    footer > div > div:nth-child(4) > ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer > div > div:nth-child(4) > ul > li > a{
+        font-weight: 600;
+        font-size: 25px;
+        color: #231f20;
+    }
+    footer > div > div:nth-child(4) > p{
+        margin: 100px 0 0;
+        font-weight: 400;
+        font-size: 20px;
+        color: #a4a0a1;
+    }
+    
+}
+/* desktop */
