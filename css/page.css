@@ -56309,6 +56309,7 @@
     box-sizing: border-box;
     padding-left: 5.52%;
     max-height: 650px;
+    min-height: 650px;
 }
 .container.snacksstyle > div:nth-child(3) > div:nth-of-type(2) > h3{
     font-weight: 600;
